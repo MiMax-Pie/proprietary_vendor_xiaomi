@@ -1,5 +1,5 @@
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2018 The LineageOS Project
+#
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -41,18 +41,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/xiaomi/kenzo/proprietary/etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml:system/etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/kenzo/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.gdx.so:system/lib64/hw/fingerprint.gdx.so \
+    vendor/xiaomi/kenzo/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
+    vendor/xiaomi/kenzo/proprietary/lib64/hw/fingerprint.gdx.so:system/lib64/hw/fingerprint.gdx.so \
     vendor/xiaomi/kenzo/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/xiaomi/kenzo/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/xiaomi/kenzo/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
@@ -354,6 +354,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libchromatix_s5k5e8_z5e8yab_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_z5e8yab_snapshot.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libchromatix_s5k5e8_z5e8yab_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_z5e8yab_zsl_preview.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libchromatix_s5k5e8_z5e8yab_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_z5e8yab_zsl_video.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
