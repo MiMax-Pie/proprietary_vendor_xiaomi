@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/vendor/etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/hydrogen/proprietary/vendor/etc/sdm_ys_32p_120_21_5_perturb50.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sdm_ys_32p_120_21_5_perturb50.bin \
     vendor/xiaomi/hydrogen/proprietary/vendor/etc/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/watermark_font_2300_3199.dat \
+    vendor/xiaomi/hydrogen/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/xiaomi/hydrogen/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/hydrogen/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/hydrogen/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/hydrogen/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
