@@ -61,6 +61,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hydrogen/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
     vendor/xiaomi/hydrogen/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/hydrogen/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/xiaomi/hydrogen/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/hydrogen/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \

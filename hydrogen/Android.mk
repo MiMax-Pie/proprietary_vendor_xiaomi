@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter helium hydrogen,$(TARGET_DEVICE)),)
+ifneq ($(filter hydrogen,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal

@@ -25,20 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/xiaomi/msm8956-common/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
     vendor/xiaomi/msm8956-common/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/xiaomi/msm8956-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/msm8956-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/msm8956-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/msm8956-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
